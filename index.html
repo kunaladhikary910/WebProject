@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="page active">
+            <div class="home-content">
+                <img src="c:\Users\KUNAL ADHIKARY\OneDrive\画像\kunall.jpg" alt="My Profile Photo" class="profile-img">
+                <div class="intro">
+                    <h1>Hello, I'm Kunal Adhikary</h1>
+                    <p>Welcome to my portfolio website.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <div class="about-section">
+                    <h3>Education</h3>
+                    <p>10th from Madhyamgram Acharya Prafulla Chandra Vidyayatan, 2021-22</p>
+                    <p>12th from Madhyamgram Acharya Prafulla Chandra Vidyayatan, 2023-24</p>
+                </div>
+                <div class="about-section">
+                    <h3>Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+                <div class="about-section">
+                    <h3>Personal Interests</h3>
+                    <p>My hobbies and interests include sketching, playing football, writing poetry in Hindi, listening to music, and playing online games such as BGMI, Free Fire Max, Clash of Clans, Asphalt, and Shadow Fight 4."</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page">
+            <div class="contact-content">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Other Ways to Reach Me</h3>
+                    <ul>
+                        <li>Email: <a href="mailto:your.email@example.com">adhikarikunal421@gmail.com</a></li>
+                        <li>Phone: <a href="tel:+1234567890">+91 7439868573, +91 9830457240</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/kunal-adhikary-78552331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">@Kunal Addikary</a></li>
+                        <li>Instagram: <a href="https://www.instagram.com/kunal_adhikary_910?utm_source=qr&igsh=MXFveXV3ZnFsbmozdA==" target="_blank">@kunal_adhikary_910</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
